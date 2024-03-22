@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+    
+   }
+html{
+  scroll-behavior: smooth;
+  scroll-padding: 5rem;
+  background-color: beige;
+} 
+   
+.navbar {
+    height:60px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    display:flex;
+    justify-content:space-evenly ;
+}
+/**box1**/
+.nav-logo {
+    height:50px;
+    width:100px;
+   cursor:default;
+}
+.logo {
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+       }
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border:1.5px solid white;
+}
+/**box2**/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color: green;
+    width: 610px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover {
+    border:2.5px solid green;
+}
+
+.search-input {
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1rem;
+    border: none;
+    align-items: center;
+
+}
+.search-icon {
+    width: 45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.3rem;
+    cursor: default;
+}
+
+/**box3**/
+
+.sign-in {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    font-family: serif;
+    
+    text-align: center;
+   
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius:25px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .sign-in:active {
+    transform: scale(0.96);
+  }
+  /**box4**/
+  .nav-orders i {
+    
+    font-size: 35px;
+    cursor: default;
+   
+  }
+  .nav-orders {
+    font-size: 1rem;
+    cursor: default;
+  }
+  .content{
+    text-align: center;
+   
+   padding-top: 10%;
+  
+  }
+ .content h1{
+   font-family: 'Franklin Gothic Medium';
+   color: white;
+   font-size: 100px;
+   font-weight: 600;
+   transition: 0.5s;
+ }
+ .content h1:hover{
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+ }
+ .content a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  
+ margin-top: 20px;
+ display:inline-block;
+  padding: 13px 60px;
+  border: 2px solid white ;
+  border-radius: 50px;
+ 
+ }
+
+ .backvid{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+  .backvid{
+    width: auto;
+    height: auto;
+  }
+}
+
+
+  
+  
+  
+  
+  
+  
+
