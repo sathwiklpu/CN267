@@ -89,6 +89,21 @@ html{
   .sign-in:active {
     transform: scale(0.96);
   }
+  .contact {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: serif;
+    
+    text-align: center;
+   
+    height: 40px;
+    width: auto;
+    font-size: 20px;
+    border-radius:25px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
   /**box4**/
   .nav-orders i {
     
